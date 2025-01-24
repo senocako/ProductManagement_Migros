@@ -11,7 +11,6 @@ import java.util.Date;
 @Entity
 public class Product
 {
-
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "PRODUCTS_SEQUENCE")
     @Column(name = "PRODUCT_ID")
     @Id

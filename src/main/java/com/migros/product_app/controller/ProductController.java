@@ -11,7 +11,7 @@ import java.util.Date;
 import java.util.List;
 
 @RequestMapping("api/product")
-@RestController
+//@RestController
 public class ProductController
 {
     @Autowired
